@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Preview pages contain noindex meta tags until client authorisation.
+Sitemap: https://advocate-marius-van-zyl.vercel.app/sitemap.xml
