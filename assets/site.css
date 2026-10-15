@@ -118,7 +118,7 @@ body{color:var(--ink)}.topbar{background:#111316;color:#e8e9eb}.topbar svg{color
 @media(max-width:380px){.brand{flex:0 0 165px;width:165px}.brand img{max-width:165px}}
 
 /* Advocate Marius van Zyl — source-preserving, logo-matched brand overrides */
-.hero:before{background:linear-gradient(90deg,rgba(7,8,30,.91) 0%,rgba(7,8,30,.70) 48%,rgba(7,8,30,.20) 100%)}
+.hero:before,.hero::before{background-color:#0b0f2b;background-image:linear-gradient(90deg,rgba(7,8,30,.88) 0%,rgba(7,8,30,.70) 42%,rgba(7,8,30,.20) 100%),var(--hero-image),url('/assets/chambers-photo.jpg');background-position:center,center,right 40%;background-size:cover;background-repeat:no-repeat}
 .btn-gold{background:#202980;color:#fff;border-color:#202980}.btn-gold:hover{background:#101554;border-color:#101554;color:#fff}
 .btn-outline{border-color:rgba(255,255,255,.8);color:#fff}.eyebrow{color:#252e8e}.eyebrow-light{color:#cbd2ff}
 .site-footer{background:#0c0f2c}.topbar{background:#0e1139}.nav-shell{background:#fff}
@@ -134,5 +134,5 @@ body{color:var(--ink)}.topbar{background:#111316;color:#e8e9eb}.topbar svg{color
 .footer-logo img{object-fit:contain;max-width:285px;height:auto}
 .floating-whatsapp{position:fixed;z-index:80;bottom:24px;right:24px;width:56px;height:56px;background:#25D366;color:#fff;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 23px rgba(0,0,0,.25)}
 .scroll-top{right:26px;bottom:92px}
-@media(max-width:780px){.values-grid{grid-template-columns:1fr}.contact-form-shell{min-width:0}.hero:before{background:linear-gradient(90deg,rgba(7,8,30,.93),rgba(7,8,30,.68))}.nav-inner .brand img{max-width:210px;height:auto}}
+@media(max-width:780px){.values-grid{grid-template-columns:1fr}.contact-form-shell{min-width:0}.hero:before,.hero::before{background-image:linear-gradient(90deg,rgba(7,8,30,.85),rgba(7,8,30,.46)),var(--hero-image),url('/assets/chambers-photo.jpg');background-position:center,center,60% 40%;background-size:cover}.nav-inner .brand img{max-width:210px;height:auto}}
 @media(max-width:380px){.nav-inner .brand img{max-width:190px}.topbar-links{gap:10px;font-size:11px;flex-wrap:wrap}.footer-logo img{max-width:245px}}
